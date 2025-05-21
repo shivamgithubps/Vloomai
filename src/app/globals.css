@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 225 32% 11%;
+    --foreground: 240 10% 95%;
+
+    --card: 225 32% 11%;
+    --card-foreground: 240 10% 95%;
+
+    --popover: 225 32% 11%;
+    --popover-foreground: 240 10% 95%;
+
+    --primary: 214 76% 49%;
+    --primary-foreground: 240 10% 95%;
+
+    --secondary: 226 26% 22%;
+    --secondary-foreground: 240 10% 95%;
+
+    --muted: 226 26% 22%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 214 76% 49%;
+    --accent-foreground: 240 10% 95%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 240 10% 95%;
+
+    --border: 226 26% 22%;
+    --input: 226 26% 22%;
+    --ring: 214 76% 49%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 225 32% 11%;
+    --foreground: 240 10% 95%;
+
+    --card: 225 32% 11%;
+    --card-foreground: 240 10% 95%;
+
+    --popover: 225 32% 11%;
+    --popover-foreground: 240 10% 95%;
+
+    --primary: 214 76% 49%;
+    --primary-foreground: 240 10% 95%;
+
+    --secondary: 226 26% 22%;
+    --secondary-foreground: 240 10% 95%;
+
+    --muted: 226 26% 22%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 214 76% 49%;
+    --accent-foreground: 240 10% 95%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 240 10% 95%;
+
+    --border: 226 26% 22%;
+    --input: 226 26% 22%;
+    --ring: 214 76% 49%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
+
+  .heading-gradient {
+    @apply bg-gradient-to-r from-primary to-blue-300 bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-2.5 font-medium transition-all;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-full px-6 py-2.5 font-medium transition-all border border-border;
+  }
+}
