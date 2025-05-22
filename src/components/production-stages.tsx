@@ -34,7 +34,7 @@ export function ProductionStages() {
             </div>
             <div className="order-1 md:order-2 relative h-[300px] rounded-lg overflow-hidden">
               <Image
-                src="https://ext.same-assets.com/618106854/2116589346.svg"
+                src="src/components/1.jpg"
                 alt="Screenwriter"
                 fill
                 className="object-cover"
@@ -46,7 +46,7 @@ export function ProductionStages() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center mb-20">
             <div className="relative h-[300px] rounded-lg overflow-hidden">
               <Image
-                src="https://ext.same-assets.com/618106854/3394157246.svg"
+                src="src/components/2.jpg"
                 alt="Producer"
                 fill
                 className="object-cover"

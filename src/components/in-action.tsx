@@ -33,7 +33,7 @@ export function InAction() {
 
         <div className="relative w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden border-2 border-primary/20">
           <Image
-            src="https://ext.same-assets.com/618106854/3798253514.webp"
+            src="src/components/video.mp4"
             alt="VloomAi in action"
             fill
             className="object-cover"

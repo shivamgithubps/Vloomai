@@ -23,7 +23,7 @@ export function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0 z-0 opacity-50">
         <Image
-          src="https://ext.same-assets.com/618106854/2383940107.webp"
+          src="src/components/new.jpeg"
           alt="Film production background"
           fill
           priority
